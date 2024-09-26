@@ -19,7 +19,7 @@ ENV AGENTS_FILE_PATH="/usr/src/app/autogen/test/agents.py"
 ENV OAI_CONFIG_FILE_PATH="/usr/src/app/OAI_CONFIG_LIST"
 
 # Download the aidevteamnew.py file from the specified URL
-RUN curl -o $AIDEVTEAM_FILE_PATH $AIDEVTEAM_FILE_URL
+RUN curl -o $AGENTS_FILE_PATH $AGENTS_FILE_URL
 
 # Download the OAI_CONFIG_LIST file from the specified URL
 RUN curl -o $OAI_CONFIG_FILE_PATH $OAI_CONFIG_URL
