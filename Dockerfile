@@ -25,7 +25,7 @@ RUN curl -o $AGENTS_FILE_PATH $AGENTS_FILE_URL
 RUN curl -o $OAI_CONFIG_FILE_PATH $OAI_CONFIG_URL
 
 # Install Python packages
-RUN pip install pyautogen \
+RUN pip install ag2 \
     panel \
     scikit-learn \
     xgboost \
